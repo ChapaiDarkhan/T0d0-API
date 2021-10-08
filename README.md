@@ -1,11 +1,11 @@
-# News
-Create and update news
+# Todo
+Create and update task
 
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 ```bash
-pip install -r /news/requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -17,7 +17,11 @@ For run this project:
 
 For run with docker-compose:
 ```bash
-docker-compose up --build
+docker-compose build
+```
+After
+```bash
+docker-compose up
 ```
 
 ###Admin
