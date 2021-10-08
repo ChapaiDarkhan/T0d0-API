@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ "$POSTGRES_DB" = "news" ]
+if [ "$POSTGRES_DB" = "todo" ]
 then
     echo "Waiting for postgres..."
 
